@@ -41,7 +41,7 @@ generateBtn.addEventListener("click", generatePassword);
 copyBtn.addEventListener("click", () => {
   if (passwordEl.value !== "") {
     navigator.clipboard.writeText(passwordEl.value);
-    copyBtn.textContent = "✅";
+    copyBtn.textContent = "☑️";
     setTimeout(() => (copyBtn.textContent = "📋"), 1500);
   }
 });
