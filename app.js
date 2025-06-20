@@ -34,6 +34,8 @@ function generatePassword() {
   passwordEl.value = password;
 }
 
+generatePassword();
+
 generateBtn.addEventListener("click", generatePassword);
 
 copyBtn.addEventListener("click", () => {

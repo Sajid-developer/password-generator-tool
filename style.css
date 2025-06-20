@@ -6,7 +6,7 @@
 }
 
 body {
-  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  background: linear-gradient(135deg, #181841, rgb(23, 15, 57));
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-  background: #2c2c54;
+  background: #30307c;
   padding: 30px 25px;
   border-radius: 15px;
   width: 350px;
